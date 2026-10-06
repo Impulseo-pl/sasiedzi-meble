@@ -20,161 +20,212 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": "Sąsiedzi Meble", "url": "https://kris20032.github.io/sasiedzi-meble/", "telephone": "+48691476000", "image": "https://kris20032.github.io/sasiedzi-meble/img/og.jpg", "areaServed": "Kędzierzyn-Koźle", "sameAs": ["https://maps.google.com/?cid=7538419791917260537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "https://www.facebook.com/Sasiedzi.meble/"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=5ba7aedf">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=kl1">
+<meta name="theme-color" content="#ECE6DD">
 </head>
-<body>
+<body class="kl">
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="index.html" class="active" aria-current="page">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<header class="kl-top">
+  <a class="kl-brand" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" decoding="async"><span>Sąsiedzi Meble</span></a>
+  <a class="kl-toptel" href="tel:+48691476000">+48 691 476 000 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </header>
+<button class="kl-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="kl-menu"><i></i><i></i></button>
+<div class="kl-menu" id="kl-menu" hidden>
+  <div class="kl-menu-in">
+    <nav class="kl-menu-nav">
+      <a href="index.html" class="active" aria-current="page"><span>Strona główna</span></a>
+      <a href="realizacje.html"><span>Realizacje</span></a>
+      <a href="oferta.html"><span>Oferta</span></a>
+      <a href="o-nas.html"><span>O nas</span></a>
+      <a href="kontakt.html"><span>Kontakt</span></a>
+    </nav>
+    <div class="kl-menu-side">
+      <p class="kl-lbl">Kontakt</p>
+      <a href="tel:+48691476000">+48 691 476 000</a>
+      <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
+      <p>Koszykowa 23, 47-224 Kędzierzyn-Koźle</p>
+      <p>Pon.-pt. 8:00-17:00</p>
+      <a class="kl-pill kl-pill-light" href="kontakt.html">Zapytaj o wycenę</a>
+    </div>
+  </div>
+</div>
 
 <main>
-<section class="hero-cine">
-  <img src="img/hero.jpg" fetchpriority="high" data-rotate="img/g1.jpg|img/g2.jpg" alt="Sąsiedzi Meble - Meble, które pasują co do milimetra. " width="1600" height="868">
-  <div class="wrap">
-    <div class="hero-copy">
-      <div class="brandmark bm-m"><span class="bm-line"><span>Sąsiedzi Meble</span></span></div>
-      <h1>Meble, które pasują co do milimetra. </h1>
-      <p class="lead">Najpierw pomiar i projekt, decyzja potem. Mebel powstaje pod Twoje wnętrze - ze skosem i krzywą ścianą włącznie.</p>
-      <div class="hero-actions">
-        <a href="realizacje.html" class="btn btn-accent">Zobacz realizacje <span class="arr">→</span></a>
-        <a href="kontakt.html" class="btn btn-ghost btn-on-dark">Zapytaj o wycenę</a>
+<section class="kl-hero hero-cine">
+  <div class="kl-hero-copy">
+    <div class="brandmark kl-lbl"><span>Sąsiedzi Meble</span></div>
+    <h1>Meble na wymiar</h1>
+    <p class="kl-lead">Najpierw pomiar i projekt, decyzja potem. Mebel powstaje pod Twoje wnętrze - ze skosem i krzywą ścianą włącznie.</p>
+    <div class="kl-hero-act">
+      <a class="kl-pill" href="kontakt.html">Zapytaj o wycenę</a>
+      <a class="kl-link" href="realizacje.html">Zobacz realizacje <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <div class="kl-hero-g"><span class="g-badge"><svg class="gb-ico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg><b class="gb-ocena">5</b><svg class="gb-stars" viewBox="0 0 90 18" width="74" height="14.8" aria-hidden="true"><g fill="currentColor" opacity=".26"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g><clipPath id="gs1000"><rect x="0" y="0" width="90.0" height="18"/></clipPath><g fill="#FBBC04" clip-path="url(#gs1000)"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g></svg><span class="gb-txt">22 opinie w Google</span></span></div>
+  </div>
+  <div class="kl-hero-art"><img src="img/hero.jpg" alt="Sąsiedzi Meble - biała kuchnia na wymiar z podświetleniem" fetchpriority="high" width="1600" height="868" decoding="async"></div>
+</section>
+
+<section class="kl-dark kl-what">
+  <div class="kl-wrap">
+    <div class="kl-what-top reveal">
+      <p class="kl-vert">Co robimy</p>
+      <p class="kl-what-txt">Sąsiedzi Meble to pracownia z Kędzierzyna-Koźla. Robimy kuchnie, szafy wnękowe, zabudowy i blaty drewniane na wymiar, a zlecenia przyjmujemy z całego województwa opolskiego. Najwięcej czasu schodzi przy pomiarze i projekcie, bo tam rozstrzyga się cała praca.</p>
+    </div>
+    <div class="kl-what-pics">
+      <a class="kl-what-a reveal" href="oferta.html"><img src="img/g8.jpg" alt="Kuchnia na wymiar z drewnianymi frontami" loading="lazy" width="1600" height="1066" decoding="async"><span class="kl-cap">Kuchnie na wymiar <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="kl-sub">Pod Twoje sprzęty i nawyki.</span></a>
+      <a class="kl-what-b reveal" href="oferta.html"><img src="img/g14.jpg" alt="Szafa na wymiar w sypialni" loading="lazy" width="1600" height="1068" decoding="async"><span class="kl-cap">Szafy i garderoby <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="kl-sub">Od podłogi po sufit.</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="kl-dark kl-work">
+  <div class="kl-wrap">
+    <div class="kl-work-top">
+      <h2 class="kl-giant reveal">Realizacje</h2>
+      <div class="kl-work-hero reveal"><img src="img/g13.jpg" alt="Biała kuchnia na wymiar z drewnianym blatem" loading="lazy" width="1600" height="1068" decoding="async"></div>
+    </div>
+    <div class="kl-work-grid">
+      <a class="kl-proj reveal" href="realizacje.html"><img src="img/g1.jpg" alt="Kuchnia w bieli i czerni" loading="lazy" width="1600" height="1068" decoding="async"><span>Kuchnia</span></a>
+      <a class="kl-proj reveal" href="realizacje.html"><img src="img/g10.jpg" alt="Sypialnia z szafą przesuwną" loading="lazy" width="1600" height="1068" decoding="async"><span>Sypialnia</span></a>
+      <a class="kl-proj reveal" href="realizacje.html"><img src="img/g7.jpg" alt="Jadalnia z kuchnią w drewnie" loading="lazy" width="1600" height="1068" decoding="async"><span>Jadalnia</span></a>
+      <a class="kl-proj reveal" href="realizacje.html"><img src="img/g12.jpg" alt="Kuchnia z wyspą" loading="lazy" width="1600" height="1067" decoding="async"><span>Wyspa kuchenna</span></a>
+    </div>
+    <div class="kl-center reveal"><a class="kl-pill kl-pill-light" href="realizacje.html">Wszystkie realizacje</a></div>
+  </div>
+</section>
+
+<section class="kl-beige kl-services">
+  <div class="kl-wrap">
+    <h2 class="kl-h2c reveal">Prowadzimy Cię od pomiaru aż po montaż.</h2>
+    <div class="kl-sl-wrap">
+      <div class="kl-sl kl-svc-track" id="sl-svc">
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/g4.jpg" alt="Kuchnie na wymiar" loading="lazy" width="1534" height="2336" decoding="async"></div>
+          <h3>Kuchnie na wymiar <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Rozrysowujemy zabudowę pod Twoje sprzęty i nawyki: wysokość blatu pod Twój wzrost, szuflady tam, gdzie sięgasz najczęściej. Projekt oglądasz, zanim zamówimy materiał.</p>
+        </a>
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/g5.jpg" alt="Szafy i garderoby" loading="lazy" width="1600" height="3552" decoding="async"></div>
+          <h3>Szafy i garderoby <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Szafa od podłogi po sufit, bez martwej szczeliny na kurz. Środek planujemy razem: drążki i szuflady pod to, co naprawdę wieszasz i składasz.</p>
+        </a>
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/g3.jpg" alt="Zabudowy wnęk i skosów" loading="lazy" width="1600" height="721" decoding="async"></div>
+          <h3>Zabudowy wnęk i skosów <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Najpierw ustalamy, co ma się w zabudowie zmieścić, dopiero potem rysujemy fronty. Gotowa zabudowa wygląda jak fragment ściany.</p>
+        </a>
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/g2.jpg" alt="Meble pokojowe i łazienkowe" loading="lazy" width="1506" height="946" decoding="async"></div>
+          <h3>Meble pokojowe i łazienkowe <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Szafka RTV pod tę jedną ścianę albo biurko we wnękę. W łazience płyty i fronty odporne na parę i wodę, z okuciami, które nie rdzewieją.</p>
+        </a>
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/about.jpg" alt="Blaty drewniane" loading="lazy" width="1600" height="1068" decoding="async"></div>
+          <h3>Blaty drewniane <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Blat do kuchni albo na wyspę. Wymiar bierzemy na miejscu, razem z resztą zabudowy, żeby blat leżał równo z frontami.</p>
+        </a>
+        <a class="kl-svc" href="oferta.html">
+          <div class="kl-svc-img"><img src="img/g9.jpg" alt="Pomiar i projekt" loading="lazy" width="1600" height="1060" decoding="async"></div>
+          <h3>Pomiar i projekt <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+          <p>Przyjeżdżamy z miarą i słuchamy. Sprawdzamy piony ścian i przebieg rur. Dostajesz rysunek z wymiarami i cenę - projekt do niczego nie zobowiązuje.</p>
+        </a>
       </div>
-      <div style="margin-top:var(--space-6);color:#fff;font-weight:600;letter-spacing:.02em;opacity:.92"><span class="g-badge"><svg class="gb-ico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg><b class="gb-ocena">5</b><svg class="gb-stars" viewBox="0 0 90 18" width="74" height="14.8" aria-hidden="true"><g fill="currentColor" opacity=".26"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g><clipPath id="gs1000"><rect x="0" y="0" width="90.0" height="18"/></clipPath><g fill="#FBBC04" clip-path="url(#gs1000)"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g></svg><span class="gb-txt">22 opinie w Google</span></span></div>
+      <div class="kl-sl-nav">
+        <button type="button" class="kl-sl-btn" data-sl="sl-svc" data-dir="1" aria-label="Dalej"><svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button type="button" class="kl-sl-btn kl-sl-prev" data-sl="sl-svc" data-dir="-1" aria-label="Wstecz"><svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
     </div>
+    <div class="kl-sl-bar"><i data-for="sl-svc"></i></div>
   </div>
 </section>
-<section class="strip n-5" style="padding-block:0">
-  <div class="wrap">
-    <div class="item reveal"><div class="k">5 na Google</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Pomiar i projekt</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Opolskie i okolice</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Od pomiaru po montaż</div><div class="v"></div></div>
-    <div class="item reveal"><div class="k">Kuchnie, szafy, zabudowy</div><div class="v"></div></div>
-  </div>
-</section>
-<section class="opinie-mini" aria-label="Opinie klientów">
-  <div class="wrap">
-    <div class="om-row">
-      <div class="om-item reveal"><blockquote>„Prace wykonane fachowo, bezproblemowo i solidnie.”</blockquote><span class="om-autor">Krzysztof Sladek</span></div>
-      <div class="om-item reveal"><blockquote>„Profesjonalność, solidność i nowoczesność w wykonaniu.”</blockquote><span class="om-autor">Edyta Warchałowska</span></div>
-      <div class="om-item reveal"><blockquote>„Firma godna polecenie, wysoka jakość, perfekcyjne wykonanie, terminowość.”</blockquote><span class="om-autor">Grzegorz Rudnicki</span></div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g7.jpg" alt="Sąsiedzi Meble - realizacja" loading="lazy" width="1600" height="1068" decoding="async"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">Jak pracujemy</span>
-      <h2>O nas</h2>
-      <p class="muted">Najwięcej czasu schodzi przy pomiarze i projekcie, bo tam rozstrzyga się cała praca. Krzywa ściana albo wnęka o dwóch szerokościach - to musi być w projekcie, zanim ruszy piła.</p>
-      <p class="muted"></p>
-      <a href="o-nas.html" class="btn btn-ghost">Poznaj nas <span class="arr">→</span></a>
-    </div>
-  </div>
-</section>
-<section class="gateways-band">
-  <div class="wrap">
-    <div class="gateways">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g8.jpg" alt="Kuchnie na wymiar" loading="lazy" width="1600" height="1066" decoding="async"><span class="g-ttl">Kuchnie na wymiar</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g14.jpg" alt="Szafy i garderoby" loading="lazy" width="1600" height="1068" decoding="async"><span class="g-ttl">Szafy i garderoby</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g10.jpg" alt="Zabudowy wnęk i skosów" loading="lazy" width="1600" height="1066" decoding="async"><span class="g-ttl">Zabudowy wnęk i skosów</span></a>
-    </div>
-  </div>
-</section>
+
 <section class="stopklatka" aria-hidden="true">
   <div class="stk-bg" style="background-image:url(img/g11.jpg)"></div>
 </section>
-<section class="opinie">
-  <div class="wrap">
-    <div class="head center reveal">
-      <span class="eyebrow">Opinie</span>
-      <h2>Co mówią klienci</h2>
+
+<section class="kl-dark opinie">
+  <div class="kl-wrap">
+    <div class="kl-op">
+      <div class="kl-sl-wrap kl-op-wrap">
+        <div class="kl-sl opinie-grid" id="sl-op">
+        <figure class="op-card">
+          <span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span>
+          <blockquote>„Prace wykonane fachowo, bezproblemowo i solidnie.”</blockquote>
+          <figcaption class="op-autor">Krzysztof Sladek</figcaption>
+        </figure>
+        <figure class="op-card">
+          <span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span>
+          <blockquote>„Od doradztwa w projektowaniu i aranżowaniu mebli, aż po ostateczne zamontowanie. Profesjonalność, solidność i nowoczesność w wykonaniu.”</blockquote>
+          <figcaption class="op-autor">Edyta Warchałowska</figcaption>
+        </figure>
+        <figure class="op-card">
+          <span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span>
+          <blockquote>„Firma godna polecenie, wysoka jakość, perfekcyjne wykonanie, terminowość. Nie pierwsze i nie ostatnie zlecenie z mojej strony, tylko Sąsiedzi Meble.”</blockquote>
+          <figcaption class="op-autor">Grzegorz Rudnicki</figcaption>
+        </figure>
+        </div>
+      </div>
+      <div class="kl-op-img reveal"><img src="img/g6.jpg" alt="Kuchnia na wymiar z żółtymi frontami" loading="lazy" width="1600" height="3552" decoding="async"></div>
+      <div class="kl-sl-nav">
+        <button type="button" class="kl-sl-btn" data-sl="sl-op" data-dir="1" aria-label="Dalej"><svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button type="button" class="kl-sl-btn kl-sl-prev" data-sl="sl-op" data-dir="-1" aria-label="Wstecz"><svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <h2 class="kl-giant kl-giant-r reveal">Opinie</h2>
+    <div class="kl-marks reveal">
+      <div><b>5,0</b><span>ocena w Google</span></div>
+      <div><b>22</b><span>opinie klientów</span></div>
+      <div><b>1:1</b><span>projekt przed realizacją</span></div>
+      <div><b>od A do Z</b><span>pomiar, projekt, montaż</span></div>
     </div>
     <p class="op-meta reveal"><span class="g-badge"><svg class="gb-ico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg><b class="gb-ocena">5</b><svg class="gb-stars" viewBox="0 0 90 18" width="74" height="14.8" aria-hidden="true"><g fill="currentColor" opacity=".26"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g><clipPath id="gs1000"><rect x="0" y="0" width="90.0" height="18"/></clipPath><g fill="#FBBC04" clip-path="url(#gs1000)"><path transform="translate(0,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(18,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(36,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(54,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/><path transform="translate(72,0)" d="M9 1.6l2.2 4.46 4.92.72-3.56 3.47.84 4.9L9 12.74l-4.4 2.31.84-4.9L1.88 6.68l4.92-.72L9 1.6Z"/></g></svg><span class="gb-txt">22 opinie w Google</span></span></p>
-    <p class="op-meta reveal"><a class="op-google" href="https://maps.google.com/?cid=7538419791917260537&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener"><svg class="op-g-ico" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg><span>Zobacz opinie w Google</span><span class="arr">→</span></a></p>
-    <div class="opinie-grid">
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Prace wykonane fachowo, bezproblemowo i solidnie.</blockquote><span class="op-autor">Krzysztof Sladek</span></figure>
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Od doradztwa w projektowaniu i aranżowaniu mebli, aż po ostateczne zamontowanie. Profesjonalność, solidność i nowoczesność w wykonaniu.</blockquote><span class="op-autor">Edyta Warchałowska</span></figure>
-      <figure class="op-card reveal"><span class="op-star"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg></span><blockquote>Firma godna polecenie, wysoka jakość, perfekcyjne wykonanie, terminowość. Nie pierwsze i nie ostatnie zlecenie z mojej strony, tylko Sąsiedzi Meble.</blockquote><span class="op-autor">Grzegorz Rudnicki</span></figure>
-    </div>
+    <p class="op-meta reveal"><a class="op-google" href="https://maps.google.com/?cid=7538419791917260537&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener"><svg class="op-g-ico" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg><span>Zobacz opinie w Google</span><svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
   </div>
 </section>
-<section>
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Realizacje</span>
-      <h2>Meble, które już stoją</h2>
-      <p>Kuchnie, szafy i zabudowy na wymiar - zobacz, jak mogą wyglądać u Ciebie.</p>
-    </div>
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g3.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="721" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g4.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1534" height="2336" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="3552" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="3552" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/about.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1068" decoding="async"></div>
-    </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Pełna galeria <span class="arr">→</span></a></div>
-  </div>
-</section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Zacznijmy od krótkiej rozmowy.</h2>
-      <p>Zadzwoń i opisz temat. Doradzę, nawet jeśli nic z tego nie wyjdzie.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48691476000" class="btn btn-ghost btn-ghost-cta">+48 691 476 000</a>
+<section class="kl-dark kl-cta">
+  <div class="kl-wrap">
+    <p class="kl-lbl reveal">Zacznijmy współpracę</p>
+    <a class="kl-bigtel reveal" href="tel:+48691476000">691 476 000</a>
+    <div class="kl-cta-act reveal">
+      <a class="kl-pill kl-pill-light" href="tel:+48691476000">Zadzwoń</a>
+      <a class="kl-pill kl-pill-light" href="kontakt.html">Zapytaj o wycenę</a>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Sąsiedzi Meble</div>
-        <p>Najpierw pomiar i projekt, decyzja potem. Mebel powstaje pod Twoje wnętrze - ze skosem i krzywą ścianą włącznie.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+<footer class="kl-foot">
+  <div class="kl-wrap">
+    <div class="kl-foot-top">
+      <div class="kl-foot-links">
+        <a href="tel:+48691476000">+48 691 476 000</a>
+        <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
         <a href="index.html">Strona główna</a>
         <a href="realizacje.html">Realizacje</a>
         <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48691476000">+48 691 476 000</a>
-        <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
-        <p>Koszykowa 23, 47-224 Kędzierzyn-Koźle, Polska</p>
-        <a href="https://maps.google.com/?cid=7538419791917260537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
+      <div class="kl-foot-soc">
+        <div><a href="https://www.facebook.com/Sasiedzi.meble/" target="_blank" rel="noopener">Facebook <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Nowe realizacje</span></div>
+        <div><a href="https://maps.google.com/?cid=7538419791917260537&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Google <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>22 opinie, ocena 5</span></div>
+        <div class="foot-soc">
         <a class="soc" href="https://www.facebook.com/Sasiedzi.meble/" target="_blank" rel="noopener" aria-label="Facebook - Sąsiedzi Meble"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
         <a class="soc" href="https://maps.google.com/?cid=7538419791917260537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Sąsiedzi Meble"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
+        </div>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Sąsiedzi Meble</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="kl-foot-mid">
+      <a class="kl-foot-brand" href="index.html"><img src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" loading="lazy" decoding="async"><span>Sąsiedzi Meble</span></a>
+      <div class="kl-foot-cta">
+        <p class="kl-foot-big">Masz wymiary wnęki? Zadzwoń.</p>
+        <a href="kontakt.html">Zapytaj o wycenę <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="kl-foot-bot">
+      <p>Koszykowa 23,<br>47-224 Kędzierzyn-Koźle<br>Pon.-pt. 8:00-17:00</p>
+      <p>© 2026 Sąsiedzi Meble<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></p>
     </div>
   </div>
 </footer>
@@ -182,5 +233,6 @@
 <div class="demo-wazne" data-do="2026-10-12" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/kl.js"></script>
 </body>
 </html>

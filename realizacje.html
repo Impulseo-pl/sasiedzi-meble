@@ -19,98 +19,111 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=5ba7aedf">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=kl1">
+<meta name="theme-color" content="#ECE6DD">
 </head>
-<body>
+<body class="kl">
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="index.html">Strona główna</a>
-      <a href="realizacje.html" class="active" aria-current="page">Realizacje</a>
-      <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<header class="kl-top">
+  <a class="kl-brand" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" decoding="async"><span>Sąsiedzi Meble</span></a>
+  <a class="kl-toptel" href="tel:+48691476000">+48 691 476 000 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </header>
+<button class="kl-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="kl-menu"><i></i><i></i></button>
+<div class="kl-menu" id="kl-menu" hidden>
+  <div class="kl-menu-in">
+    <nav class="kl-menu-nav">
+      <a href="index.html"><span>Strona główna</span></a>
+      <a href="realizacje.html" class="active" aria-current="page"><span>Realizacje</span></a>
+      <a href="oferta.html"><span>Oferta</span></a>
+      <a href="o-nas.html"><span>O nas</span></a>
+      <a href="kontakt.html"><span>Kontakt</span></a>
+    </nav>
+    <div class="kl-menu-side">
+      <p class="kl-lbl">Kontakt</p>
+      <a href="tel:+48691476000">+48 691 476 000</a>
+      <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
+      <p>Koszykowa 23, 47-224 Kędzierzyn-Koźle</p>
+      <p>Pon.-pt. 8:00-17:00</p>
+      <a class="kl-pill kl-pill-light" href="kontakt.html">Zapytaj o wycenę</a>
+    </div>
+  </div>
+</div>
 
 <main>
-<section class="pagehead">
-  <img src="img/g12.jpg" alt="Sąsiedzi Meble - Nasze prace" width="1600" height="1067" decoding="async">
-  <div class="wrap">
-    <span class="eyebrow">Realizacje</span>
+<section class="kl-hero kl-hero-sub">
+  <div class="kl-hero-copy">
+    <p class="kl-lbl">Realizacje</p>
     <h1>Nasze prace</h1>
-    <p>Kuchnie, szafy i zabudowy na wymiar - zobacz, jak mogą wyglądać u Ciebie.</p>
+    <p class="kl-lead">Kuchnie, szafy i zabudowy na wymiar - zobacz, jak mogą wyglądać u Ciebie.</p>
   </div>
+  <div class="kl-hero-art"><img src="img/g12.jpg" alt="Sąsiedzi Meble - kuchnia z wyspą" fetchpriority="high" width="1600" height="1067" decoding="async"></div>
 </section>
-<section>
-  <div class="wrap">
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g1.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g2.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1506" height="946" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g3.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="721" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g4.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1534" height="2336" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="3552" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="3552" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/about.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g7.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g9.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1060" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/g10.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g11.jpg" alt="Sąsiedzi Meble" loading="lazy" width="1600" height="1068" decoding="async"></div>
+
+<section class="kl-dark kl-gal">
+  <div class="kl-wrap">
+    <h2 class="kl-giant reveal">Galeria</h2>
+    <div class="kl-masonry">
+      <figure class="kl-m-item reveal"><img src="img/g1.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g4.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1534" height="2336" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g2.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1506" height="946" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g5.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="3552" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g3.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="721" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/about.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g6.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="3552" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g7.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g8.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1066" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g9.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1060" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g10.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g11.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g13.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
+      <figure class="kl-m-item reveal"><img src="img/g14.jpg" alt="Sąsiedzi Meble - realizacja mebli na wymiar" loading="lazy" width="1600" height="1068" decoding="async"></figure>
     </div>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Spodobały Ci się nasze prace?</h2>
-      <p>Opowiedz, co trzeba zrobić - przygotujemy wycenę.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48691476000" class="btn btn-ghost btn-ghost-cta">+48 691 476 000</a>
+<section class="kl-dark kl-cta">
+  <div class="kl-wrap">
+    <p class="kl-lbl reveal">Zacznijmy współpracę</p>
+    <a class="kl-bigtel reveal" href="tel:+48691476000">691 476 000</a>
+    <div class="kl-cta-act reveal">
+      <a class="kl-pill kl-pill-light" href="tel:+48691476000">Zadzwoń</a>
+      <a class="kl-pill kl-pill-light" href="kontakt.html">Zapytaj o wycenę</a>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Sąsiedzi Meble</div>
-        <p>Najpierw pomiar i projekt, decyzja potem. Mebel powstaje pod Twoje wnętrze - ze skosem i krzywą ścianą włącznie.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+<footer class="kl-foot">
+  <div class="kl-wrap">
+    <div class="kl-foot-top">
+      <div class="kl-foot-links">
+        <a href="tel:+48691476000">+48 691 476 000</a>
+        <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
         <a href="index.html">Strona główna</a>
         <a href="realizacje.html">Realizacje</a>
         <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48691476000">+48 691 476 000</a>
-        <a href="mailto:sasiedzi.meble@gmail.com">sasiedzi.meble@gmail.com</a>
-        <p>Koszykowa 23, 47-224 Kędzierzyn-Koźle, Polska</p>
-        <a href="https://maps.google.com/?cid=7538419791917260537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
+      <div class="kl-foot-soc">
+        <div><a href="https://www.facebook.com/Sasiedzi.meble/" target="_blank" rel="noopener">Facebook <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Nowe realizacje</span></div>
+        <div><a href="https://maps.google.com/?cid=7538419791917260537&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Google <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>22 opinie, ocena 5</span></div>
+        <div class="foot-soc">
         <a class="soc" href="https://www.facebook.com/Sasiedzi.meble/" target="_blank" rel="noopener" aria-label="Facebook - Sąsiedzi Meble"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
         <a class="soc" href="https://maps.google.com/?cid=7538419791917260537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Sąsiedzi Meble"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
+        </div>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Sąsiedzi Meble</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="kl-foot-mid">
+      <a class="kl-foot-brand" href="index.html"><img src="img/logo.png" alt="Sąsiedzi Meble" width="679" height="679" loading="lazy" decoding="async"><span>Sąsiedzi Meble</span></a>
+      <div class="kl-foot-cta">
+        <p class="kl-foot-big">Masz wymiary wnęki? Zadzwoń.</p>
+        <a href="kontakt.html">Zapytaj o wycenę <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="kl-foot-bot">
+      <p>Koszykowa 23,<br>47-224 Kędzierzyn-Koźle<br>Pon.-pt. 8:00-17:00</p>
+      <p>© 2026 Sąsiedzi Meble<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></p>
     </div>
   </div>
 </footer>
@@ -118,5 +131,6 @@
 <div class="demo-wazne" data-do="2026-10-12" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/kl.js"></script>
 </body>
 </html>
